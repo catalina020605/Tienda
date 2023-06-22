@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: darkmagenta;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 25%;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+}
+
+.card-precio{
+    color: blueviolet;
+    background-color: #fff;
+    display: inline-block;
+}
